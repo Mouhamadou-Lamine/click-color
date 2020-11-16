@@ -1,0 +1,18 @@
+table {
+    border: medium solid #000;
+    width: 50%;
+}
+
+td, th {
+    border:thin solid #6495ed;
+    width: 50%;
+}
+
+body {
+    background-color: rgba(167, 167, 167);
+}
+
+#champMdp {
+    width : 50em;
+}
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Du HTML et encore du HTML. (Avec un peu de css et un choua de js)</title>
+</head>
+<body>
+
+    <h1>Un super titre méga original</h1>
+    <p style="background-color: red;">Du texte</p>
+
+    <a href="http://www.google.fr">Google</a> </br>
+    
+    <a href="http://www.google.fr"><img src"./" alt="super image"></a>
+
+    <p><del>tatatata</del></p>
+
+    <p><q>YAAAAAAh</q></p>
+
+    <p><abbr title="POPOPO">PPP</abbr></p>
+
+    <address>
+        Fait par moi <br>
+        Et je suis <br>
+        ICI
+    </address>
+
+    <p id="cita"><cite>Il fait beau dans le nord</cite> Citations d'Alexis</p>
+    <button>change color</button>
+
+    <bdo dir="rtl">Thomas</bdo>
+
+    <a href="#poulet">Lien interne</a>
+
+    <table>
+        <caption>Une belle liste</caption>
+        <tr>
+            <th>Prenom</th>
+            <th>Nom</th>
+            <th>Mail</th>
+        </tr>
+        <tr>
+            <th>Lamine</th>
+            <th>Aidara</th>
+            <th>m-lamine59@live.fr</th>
+        </tr>
+        <tr>
+            <th>Mouhamadou</th>
+            <th>Aidara</th>
+            <th>m-lamine59@live.fr</th>
+        </tr>
+        
+    </table>
+
+    <dl>
+        <dt>Comics</dt>
+            <dd> inspiration americaine</dd>
+            <dd> CHWINNING</dd>
+        <dt>Manga</dt>
+            <dd> Inspiration  asiatique</dd>
+    </dl>
+
+    <ol type="I" start="50">
+        <li>Café</li>
+        <li>Thé</li>
+        <li>Chocolat</li>
+    </ol>
+
+    <ul>
+        <li>Café</li>
+        <li>Thé</li>
+        <li>Chocolat</li>
+    </ul>
+
+    <iframe src="./index.html" frameborder="0" name="iframe1" title="exemple" style="width:95%;"></iframe>
+
+    <a href="http://www.google.fr" target="iframe1">Google dans le iframe</a>
+
+    <figure>
+        <img src="./" alt="">
+        <figcaption>Légend de l'image</figcaption>
+    </figure>
+
+    <code>
+        let toto = 5;<br>
+        if toto <=6 {<br>
+            &emsp:alert("BWAAAH"); <br>
+        }
+    </code>
+
+    <p><kbd>Ctrl + k + c</kbd> Sert à commenter des lignes ou blocs de code dans VsCode dans VsCode</p>
+
+    <form>
+        <label for="champPrenom">Prénom</label>
+        <input id="champPrenom" class="inputText" type="text" placeholder="votre prénom ici">
+        
+        <label for="champMdp">Mdp</label>
+        <input id="champMdp" class="inputText" type="password" pattern="[A-Z]{0}">
+        
+        <label for="champMail">E-mail</label>
+        <input id="champMail" class="inputText" type="email">
+        <input id="boutonSubmit" type="submit" value="OK">
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
